@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Quiz boadrd</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     
-        <div>
+        <div class="form">
             <form action="">
-            <div> <h3>Javascript progress quiz.</h3></div>
-            <div><h4>Instructions</h4></div>
+            <div class="top"> <h3>Javascript progress quiz.</h3></div>
+            <div class="header"><h4>Instructions</h4></div>
+            <div class="middle">
+                <div class="instructions">
             <div>1.Answer all the questions </div>
             <div>2.Answer the quiz only once</div>
             <div>3.The quiz is only for Javascript.</div>
             <div>4.They are six Questions</div>
             <div>5.You will be graded at the end of the attempt.</div>
-            <p>Q1.Which is not a function of Javascript?.</p>
+            <p>Q1.Which is not a function of Javascript?.</p></div>
            <div><input type="radio" name="q1"value="A">Show and hide web pages.</div>
            <div><input type="radio" name="q1"value="B">Make animations to our websites.</div>
            <div><input type="radio" name="q1"value="C">Build games</div>
@@ -49,6 +51,9 @@
            <div><input type="radio" name="q6"value="C"> A list of Strings</div>
            <div><input type="radio" name="q6"value="D">A list of Booleans</div>
 <input type="button"value="submit" onclick="theScore()" class="press">
+
+</div>
+
         </form>
     <div class="results" id="show">
         Your results are;
